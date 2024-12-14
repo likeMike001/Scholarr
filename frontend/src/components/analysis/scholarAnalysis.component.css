@@ -1,0 +1,93 @@
+  .analysis-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .analysis-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .analysis-text {
+    overflow-y: auto; /* Adds vertical scrolling */
+    max-height: 200px; /* Collapsed height */
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .analysis-text.expanded {
+    max-height: 1000px; /* Expanded height */
+  }
+  
+  .analysis-paragraph {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .analysis-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .analysis-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .expand-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: background-color 0.3s;
+  }
+  
+  .expand-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .analysis-text.expanded {
+    max-height: 1000px; /* Expanded height */
+  }
+  
+  .analysis-paragraph {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .expand-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: background-color 0.3s;
+  }
+  
+  .expand-button:hover {
+    background-color: #0056b3;
+  }
+  
