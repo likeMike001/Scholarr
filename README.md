@@ -48,7 +48,7 @@ pip install -r requirements.txt
 python run.py 
 ```
 
-### Setting up the Frontend
+### Set up the Frontend
 
 
 ```bash
